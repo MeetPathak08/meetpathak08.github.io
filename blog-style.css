@@ -28,6 +28,7 @@
         width: 100%;
         position: absolute;
         left: 0px;
+        bottom: 0px;
     }
     .footer p{
         color: #8a8a8a;
