@@ -1,0 +1,71 @@
+/*Desktop*/
+@media screen and (min-width: 1080px){
+    body{
+        font-family: 'Quicksand', sans-serif;
+        background: #4c89f2;
+        margin: auto;
+    }
+    .header-links ul li{
+        display: inline-block;
+        font-size: 32px;
+    }
+    .header-links{
+        position: absolute;
+        right: 30px;
+    }
+    .icon{
+        position: absolute;
+    }
+    .header-links ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    .footer{
+        background-color: black;
+        padding: 60px 0 20px;
+        position: relative;
+        max-height: 400px;
+        width: 100%;
+        position: absolute;
+        left: 0px;
+    }
+    .footer p{
+        color: #8a8a8a;
+    }
+    .footer h3{
+        color: white;
+        margin-bottom: 20px;
+    }
+    .footer-col-1, .footer-col-2{
+        min-width: 250px;
+        margin-bottom: 20px;
+    }
+    .footer-col-1{
+        flex: 1;
+        text-align: center;
+    }
+    .footer-col-2{
+        flex-basis: 12%;
+        text-align: center;
+    }
+    ul{
+        list-style-type: none;
+    }
+    .footer-col-2 ul li a{
+        color: #8a8a8a;
+        text-decoration: none;
+    }
+    .footer-col-2 ul li{
+        color: #8a8a8a;
+        text-decoration: none;
+    }
+    .footer hr{
+        border: none;
+        background-color: #b5b5b5;
+        height: 1px;
+        margin: 20px 0;
+    }
+    .copyright{
+        text-align: center;
+    }
+}
