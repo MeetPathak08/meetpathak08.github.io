@@ -1,5 +1,4 @@
 /*Desktop*/
-@media screen and (min-width: 1080px){
     body{
         font-family: 'Quicksand', sans-serif;
         background: #4c89f2;
@@ -90,4 +89,3 @@
     .copyright{
         text-align: center;
     }
-}
