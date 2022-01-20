@@ -26,9 +26,8 @@
         position: relative;
         max-height: 400px;
         width: 100%;
-        position: absolute;
         left: 0px;
-        bottom: 0px;
+        top: 300px;
     }
     .footer p{
         color: #8a8a8a;
@@ -68,4 +67,19 @@
     }
     .copyright{
         text-align: center;
+    }
+    .donut-photo{
+        width: 500px;
+        height: 500px;
+        background-color: white;
+        position: relative;
+        top: 200px;
+        text-align: center;
+        font-size: 32px;
+        color: #4c89f2;
+    }
+    .donut-photo:hover{
+        width: 500px;
+        height: 600px;
+        background-color: white;
     }
